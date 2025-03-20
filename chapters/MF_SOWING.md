@@ -21,3 +21,4 @@
 #### Checking Your Logic
 
 In the `main.js` module, invoke the function that plants all of the seeds, and then get the plants array from the `fields.js` module. Then use `console.log()` to see if the plants array has been populated correctly.
+
