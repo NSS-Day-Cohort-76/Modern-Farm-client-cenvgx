@@ -1,6 +1,5 @@
 
 
-
 export const Catalog = (harvestFoodArray) => {
     
     const mainContainer = document.querySelector(".container")
