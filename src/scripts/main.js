@@ -1,16 +1,16 @@
 console.log("Welcome to the main module")
 import { addPlant, usePlants } from "./fields.js";
-//import { createPlan } from "./plan.js"
+import { createPlan } from "./plan.js"
 import { createAsparagus } from "./seeds/asparagus.js";
 import { createCorn } from "./seeds/corn.js";
 import { createPotato } from "./seeds/potato.js";
 import { createSoybean } from "./seeds/soybean.js";
 import { createSunflower } from "./seeds/sunflower.js";
 import { createWheat } from "./seeds/wheat.js";
-// Invoke the createPlan function and store the return value in yearlyPlan
-// const yearlyPlan = createPlan();
+//Invoke the createPlan function and store the return value in yearlyPlan
+const yearlyPlan = createPlan();
 
-// console.log(yearlyPlan);
+console.log(yearlyPlan);
 
 const asparagusSeed = createAsparagus(); //creates an asparagus seed object
 const potatoSeed = createPotato();
